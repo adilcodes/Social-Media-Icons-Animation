@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #ddd;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    width: 330px;
+}
+.sm-icon-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 70px;
+    border: none;
+    border-radius: 50%;
+    text-decoration: none;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+    box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.3);
+}
+.twitter-icon{
+    background: #50ABF1;
+}
+.facebook-icon{
+    background: #3A559F;
+}
+.instagram-icon{
+    background: #DD2B75;
+}
