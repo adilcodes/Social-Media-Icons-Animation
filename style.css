@@ -25,8 +25,9 @@ body{
     text-decoration: none;
     transition: 0.5s ease-in-out;
     cursor: pointer;
-    transform: rotateY(75deg);
+    transform: rotateY(71deg);
     box-shadow: 100px 0px 5px rgba(0, 0, 0, 0.3);
+    
 }
 .twitter-icon{
     background: #50ABF1;
