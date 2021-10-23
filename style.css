@@ -25,7 +25,8 @@ body{
     text-decoration: none;
     transition: 0.5s ease-in-out;
     cursor: pointer;
-    box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.3);
+    transform: rotateY(75deg);
+    box-shadow: 100px 0px 5px rgba(0, 0, 0, 0.3);
 }
 .twitter-icon{
     background: #50ABF1;
@@ -35,4 +36,12 @@ body{
 }
 .instagram-icon{
     background: #DD2B75;
+}
+.sm-icon{
+    color: #fff;
+    font-size: 30px !important;
+}
+.sm-icon-btn:hover{
+    transform: scale(1.2);
+    box-shadow: none;
 }
